@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60095452A17F5DA00FBFBF1 /* VirtualPetSteps Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A60095442A17F5DA00FBFBF1 /* VirtualPetSteps Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A600954A2A17F5DA00FBFBF1 /* VirtualPetStepsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60095492A17F5DA00FBFBF1 /* VirtualPetStepsApp.swift */; };
+		A600954C2A17F5DA00FBFBF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A600954B2A17F5DA00FBFBF1 /* ContentView.swift */; };
+		A600954E2A17F5DC00FBFBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A600954D2A17F5DC00FBFBF1 /* Assets.xcassets */; };
+		A60095512A17F5DC00FBFBF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60095502A17F5DC00FBFBF1 /* Preview Assets.xcassets */; };
+		A600955B2A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A600955A2A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppTests.swift */; };
+		A60095652A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60095642A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITests.swift */; };
+		A60095672A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60095662A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITestsLaunchTests.swift */; };
+		A600957E2A17FF6500FBFBF1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A600957D2A17FF6500FBFBF1 /* WidgetKit.framework */; };
+		A60095802A17FF6500FBFBF1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A600957F2A17FF6500FBFBF1 /* SwiftUI.framework */; };
+		A60095832A17FF6500FBFBF1 /* Watch_Virtual_Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60095822A17FF6500FBFBF1 /* Watch_Virtual_Pet.swift */; };
+		A60095862A17FF6800FBFBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60095852A17FF6800FBFBF1 /* Assets.xcassets */; };
+		A60095882A17FF6800FBFBF1 /* Watch_Virtual_Pet.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A60095842A17FF6500FBFBF1 /* Watch_Virtual_Pet.intentdefinition */; };
+		A60095892A17FF6800FBFBF1 /* Watch_Virtual_Pet.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A60095842A17FF6500FBFBF1 /* Watch_Virtual_Pet.intentdefinition */; };
+		A600958C2A17FF6800FBFBF1 /* Watch Virtual PetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A600957B2A17FF6500FBFBF1 /* Watch Virtual PetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A60095462A17F5DA00FBFBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60095382A17F5DA00FBFBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60095432A17F5DA00FBFBF1;
+			remoteInfo = "VirtualPetSteps Watch App";
+		};
+		A60095572A17F5DC00FBFBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60095382A17F5DA00FBFBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60095432A17F5DA00FBFBF1;
+			remoteInfo = "VirtualPetSteps Watch App";
+		};
+		A60095612A17F5DC00FBFBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60095382A17F5DA00FBFBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60095432A17F5DA00FBFBF1;
+			remoteInfo = "VirtualPetSteps Watch App";
+		};
+		A600958A2A17FF6800FBFBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60095382A17F5DA00FBFBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A600957A2A17FF6500FBFBF1;
+			remoteInfo = "Watch Virtual PetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A600956D2A17F5DC00FBFBF1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A60095452A17F5DA00FBFBF1 /* VirtualPetSteps Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60095902A17FF6800FBFBF1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A600958C2A17FF6800FBFBF1 /* Watch Virtual PetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A600953E2A17F5DA00FBFBF1 /* VirtualPetSteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPetSteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60095442A17F5DA00FBFBF1 /* VirtualPetSteps Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VirtualPetSteps Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60095492A17F5DA00FBFBF1 /* VirtualPetStepsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPetStepsApp.swift; sourceTree = "<group>"; };
+		A600954B2A17F5DA00FBFBF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A600954D2A17F5DC00FBFBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A60095502A17F5DC00FBFBF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A60095562A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VirtualPetSteps Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A600955A2A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPetSteps_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A60095602A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VirtualPetSteps Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60095642A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPetSteps_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A60095662A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPetSteps_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A600957B2A17FF6500FBFBF1 /* Watch Virtual PetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Virtual PetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A600957D2A17FF6500FBFBF1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A600957F2A17FF6500FBFBF1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A60095822A17FF6500FBFBF1 /* Watch_Virtual_Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch_Virtual_Pet.swift; sourceTree = "<group>"; };
+		A60095842A17FF6500FBFBF1 /* Watch_Virtual_Pet.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Watch_Virtual_Pet.intentdefinition; sourceTree = "<group>"; };
+		A60095852A17FF6800FBFBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A60095872A17FF6800FBFBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60095412A17F5DA00FBFBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60095532A17F5DC00FBFBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A600955D2A17F5DC00FBFBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60095782A17FF6500FBFBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60095802A17FF6500FBFBF1 /* SwiftUI.framework in Frameworks */,
+				A600957E2A17FF6500FBFBF1 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60095372A17F5DA00FBFBF1 = {
+			isa = PBXGroup;
+			children = (
+				A60095482A17F5DA00FBFBF1 /* VirtualPetSteps Watch App */,
+				A60095592A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppTests */,
+				A60095632A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppUITests */,
+				A60095812A17FF6500FBFBF1 /* Watch Virtual Pet */,
+				A600957C2A17FF6500FBFBF1 /* Frameworks */,
+				A600953F2A17F5DA00FBFBF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A600953F2A17F5DA00FBFBF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A600953E2A17F5DA00FBFBF1 /* VirtualPetSteps.app */,
+				A60095442A17F5DA00FBFBF1 /* VirtualPetSteps Watch App.app */,
+				A60095562A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppTests.xctest */,
+				A60095602A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppUITests.xctest */,
+				A600957B2A17FF6500FBFBF1 /* Watch Virtual PetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60095482A17F5DA00FBFBF1 /* VirtualPetSteps Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A60095492A17F5DA00FBFBF1 /* VirtualPetStepsApp.swift */,
+				A600954B2A17F5DA00FBFBF1 /* ContentView.swift */,
+				A600954D2A17F5DC00FBFBF1 /* Assets.xcassets */,
+				A600954F2A17F5DC00FBFBF1 /* Preview Content */,
+			);
+			path = "VirtualPetSteps Watch App";
+			sourceTree = "<group>";
+		};
+		A600954F2A17F5DC00FBFBF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A60095502A17F5DC00FBFBF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A60095592A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A600955A2A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppTests.swift */,
+			);
+			path = "VirtualPetSteps Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A60095632A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A60095642A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITests.swift */,
+				A60095662A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "VirtualPetSteps Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		A600957C2A17FF6500FBFBF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A600957D2A17FF6500FBFBF1 /* WidgetKit.framework */,
+				A600957F2A17FF6500FBFBF1 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A60095812A17FF6500FBFBF1 /* Watch Virtual Pet */ = {
+			isa = PBXGroup;
+			children = (
+				A60095822A17FF6500FBFBF1 /* Watch_Virtual_Pet.swift */,
+				A60095842A17FF6500FBFBF1 /* Watch_Virtual_Pet.intentdefinition */,
+				A60095852A17FF6800FBFBF1 /* Assets.xcassets */,
+				A60095872A17FF6800FBFBF1 /* Info.plist */,
+			);
+			path = "Watch Virtual Pet";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A600953D2A17F5DA00FBFBF1 /* VirtualPetSteps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A600956E2A17F5DC00FBFBF1 /* Build configuration list for PBXNativeTarget "VirtualPetSteps" */;
+			buildPhases = (
+				A600953C2A17F5DA00FBFBF1 /* Resources */,
+				A600956D2A17F5DC00FBFBF1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60095472A17F5DA00FBFBF1 /* PBXTargetDependency */,
+			);
+			name = VirtualPetSteps;
+			productName = VirtualPetSteps;
+			productReference = A600953E2A17F5DA00FBFBF1 /* VirtualPetSteps.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A60095432A17F5DA00FBFBF1 /* VirtualPetSteps Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A600956A2A17F5DC00FBFBF1 /* Build configuration list for PBXNativeTarget "VirtualPetSteps Watch App" */;
+			buildPhases = (
+				A60095402A17F5DA00FBFBF1 /* Sources */,
+				A60095412A17F5DA00FBFBF1 /* Frameworks */,
+				A60095422A17F5DA00FBFBF1 /* Resources */,
+				A60095902A17FF6800FBFBF1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A600958B2A17FF6800FBFBF1 /* PBXTargetDependency */,
+			);
+			name = "VirtualPetSteps Watch App";
+			productName = "VirtualPetSteps Watch App";
+			productReference = A60095442A17F5DA00FBFBF1 /* VirtualPetSteps Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60095552A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60095712A17F5DC00FBFBF1 /* Build configuration list for PBXNativeTarget "VirtualPetSteps Watch AppTests" */;
+			buildPhases = (
+				A60095522A17F5DC00FBFBF1 /* Sources */,
+				A60095532A17F5DC00FBFBF1 /* Frameworks */,
+				A60095542A17F5DC00FBFBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60095582A17F5DC00FBFBF1 /* PBXTargetDependency */,
+			);
+			name = "VirtualPetSteps Watch AppTests";
+			productName = "VirtualPetSteps Watch AppTests";
+			productReference = A60095562A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A600955F2A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60095742A17F5DC00FBFBF1 /* Build configuration list for PBXNativeTarget "VirtualPetSteps Watch AppUITests" */;
+			buildPhases = (
+				A600955C2A17F5DC00FBFBF1 /* Sources */,
+				A600955D2A17F5DC00FBFBF1 /* Frameworks */,
+				A600955E2A17F5DC00FBFBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60095622A17F5DC00FBFBF1 /* PBXTargetDependency */,
+			);
+			name = "VirtualPetSteps Watch AppUITests";
+			productName = "VirtualPetSteps Watch AppUITests";
+			productReference = A60095602A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A600957A2A17FF6500FBFBF1 /* Watch Virtual PetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A600958D2A17FF6800FBFBF1 /* Build configuration list for PBXNativeTarget "Watch Virtual PetExtension" */;
+			buildPhases = (
+				A60095772A17FF6500FBFBF1 /* Sources */,
+				A60095782A17FF6500FBFBF1 /* Frameworks */,
+				A60095792A17FF6500FBFBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Virtual PetExtension";
+			productName = "Watch Virtual PetExtension";
+			productReference = A600957B2A17FF6500FBFBF1 /* Watch Virtual PetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60095382A17F5DA00FBFBF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A600953D2A17F5DA00FBFBF1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A60095432A17F5DA00FBFBF1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A60095552A17F5DC00FBFBF1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A60095432A17F5DA00FBFBF1;
+					};
+					A600955F2A17F5DC00FBFBF1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A60095432A17F5DA00FBFBF1;
+					};
+					A600957A2A17FF6500FBFBF1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A600953B2A17F5DA00FBFBF1 /* Build configuration list for PBXProject "VirtualPetSteps" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60095372A17F5DA00FBFBF1;
+			productRefGroup = A600953F2A17F5DA00FBFBF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A600953D2A17F5DA00FBFBF1 /* VirtualPetSteps */,
+				A60095432A17F5DA00FBFBF1 /* VirtualPetSteps Watch App */,
+				A60095552A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppTests */,
+				A600955F2A17F5DC00FBFBF1 /* VirtualPetSteps Watch AppUITests */,
+				A600957A2A17FF6500FBFBF1 /* Watch Virtual PetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A600953C2A17F5DA00FBFBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60095422A17F5DA00FBFBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60095512A17F5DC00FBFBF1 /* Preview Assets.xcassets in Resources */,
+				A600954E2A17F5DC00FBFBF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60095542A17F5DC00FBFBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A600955E2A17F5DC00FBFBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60095792A17FF6500FBFBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60095862A17FF6800FBFBF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60095402A17F5DA00FBFBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A600954C2A17F5DA00FBFBF1 /* ContentView.swift in Sources */,
+				A600954A2A17F5DA00FBFBF1 /* VirtualPetStepsApp.swift in Sources */,
+				A60095892A17FF6800FBFBF1 /* Watch_Virtual_Pet.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60095522A17F5DC00FBFBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A600955B2A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A600955C2A17F5DC00FBFBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60095672A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITestsLaunchTests.swift in Sources */,
+				A60095652A17F5DC00FBFBF1 /* VirtualPetSteps_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60095772A17FF6500FBFBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60095882A17FF6800FBFBF1 /* Watch_Virtual_Pet.intentdefinition in Sources */,
+				A60095832A17FF6500FBFBF1 /* Watch_Virtual_Pet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60095472A17F5DA00FBFBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60095432A17F5DA00FBFBF1 /* VirtualPetSteps Watch App */;
+			targetProxy = A60095462A17F5DA00FBFBF1 /* PBXContainerItemProxy */;
+		};
+		A60095582A17F5DC00FBFBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60095432A17F5DA00FBFBF1 /* VirtualPetSteps Watch App */;
+			targetProxy = A60095572A17F5DC00FBFBF1 /* PBXContainerItemProxy */;
+		};
+		A60095622A17F5DC00FBFBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60095432A17F5DA00FBFBF1 /* VirtualPetSteps Watch App */;
+			targetProxy = A60095612A17F5DC00FBFBF1 /* PBXContainerItemProxy */;
+		};
+		A600958B2A17FF6800FBFBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A600957A2A17FF6500FBFBF1 /* Watch Virtual PetExtension */;
+			targetProxy = A600958A2A17FF6800FBFBF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A60095682A17F5DC00FBFBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A60095692A17F5DC00FBFBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A600956B2A17F5DC00FBFBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualPetSteps Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualPetSteps;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		A600956C2A17F5DC00FBFBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualPetSteps Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualPetSteps;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		A600956F2A17F5DC00FBFBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualPetSteps;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A60095702A17F5DC00FBFBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualPetSteps;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60095722A17F5DC00FBFBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualPetSteps Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualPetSteps Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		A60095732A17F5DC00FBFBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualPetSteps Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualPetSteps Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		A60095752A17F5DC00FBFBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "VirtualPetSteps Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		A60095762A17F5DC00FBFBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "VirtualPetSteps Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		A600958E2A17FF6800FBFBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Watch Virtual Pet/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Virtual Pet";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps.watchkitapp.Watch-Virtual-Pet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		A600958F2A17FF6800FBFBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFW9TQ47H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Watch Virtual Pet/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Virtual Pet";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Virtual-Star-Studios.VirtualPetSteps.watchkitapp.Watch-Virtual-Pet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A600953B2A17F5DA00FBFBF1 /* Build configuration list for PBXProject "VirtualPetSteps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60095682A17F5DC00FBFBF1 /* Debug */,
+				A60095692A17F5DC00FBFBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A600956A2A17F5DC00FBFBF1 /* Build configuration list for PBXNativeTarget "VirtualPetSteps Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A600956B2A17F5DC00FBFBF1 /* Debug */,
+				A600956C2A17F5DC00FBFBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A600956E2A17F5DC00FBFBF1 /* Build configuration list for PBXNativeTarget "VirtualPetSteps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A600956F2A17F5DC00FBFBF1 /* Debug */,
+				A60095702A17F5DC00FBFBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60095712A17F5DC00FBFBF1 /* Build configuration list for PBXNativeTarget "VirtualPetSteps Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60095722A17F5DC00FBFBF1 /* Debug */,
+				A60095732A17F5DC00FBFBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60095742A17F5DC00FBFBF1 /* Build configuration list for PBXNativeTarget "VirtualPetSteps Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60095752A17F5DC00FBFBF1 /* Debug */,
+				A60095762A17F5DC00FBFBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A600958D2A17FF6800FBFBF1 /* Build configuration list for PBXNativeTarget "Watch Virtual PetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A600958E2A17FF6800FBFBF1 /* Debug */,
+				A600958F2A17FF6800FBFBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60095382A17F5DA00FBFBF1 /* Project object */;
+}
